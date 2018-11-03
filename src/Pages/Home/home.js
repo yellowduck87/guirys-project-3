@@ -1,26 +1,25 @@
 
 import React from "react";
-import Art from './homeart';
-import Paint from './homepaint';
-import Decor from './homedecor';
+// import Art from './homeart';
+// import Paint from './homepaint';
+// import Decor from './homedecor';
 
 
 
-const Direction = () => (
+const Home = () => (
     <p className="what">
         Pick your poison:
-    </p>
-    <div>
-    <Paint/>
-    <Art/>
-    <Decore/>
-    </div>
+   </p>
 );
 
-export default Direction;
+export default Home;
 
 
 
-
-
+//    /* <Art/> */
+//    <div>
+//    </p>
+//     <Paint/>
+//     <Decor/>
+//     </div>
 

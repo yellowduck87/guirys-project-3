@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/nav/nav'
 import Jumbotron from './components/header/header';
-import Direction from './compoents/Home/home'
+import Home from './Pages/Home/home'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div>
       <Jumbotron/>
       <Nav/>
-      <Direction/>
+      <Home/>
       </div>
       
     );
